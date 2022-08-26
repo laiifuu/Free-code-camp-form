@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 id="title">Hello World! We are software developers!</h1>
+      <p>This is a sample survey form, please fill out the form below</p>
+    </header>
+
+    <main id="form">
+      <form action="" method="post" id="survey-form">
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="enter your name"
+          />
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="enter your email"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="number"> Age (optional)</label>
+          <input
+            type="number"
+            name=""
+            id="number"
+            placeholder="enter age"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="select"
+            >Which option best describes your current role?</label
+          > <br>
+
+          <select name="select" id="dropdown">
+            Select current role
+            <option value="First option">First Option</option>
+            <option value="Second option">Second Option</option>
+            <option value="Third option">Third Option</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="name"
+            >Would you recommend freeCodeCamp to a friend?</label
+          > <br>
+          <input type="radio" name="name" value="Definitely" />Definitely <br>
+          <input type="radio" name="name" value="Maybe" />Maybe <br>
+          <input type="radio" name="name" value="Not sure" />Not sure <br>
+        </div>
+
+        <div>
+          <label for="checkbox"
+            >What would you like to see improved? (Check all that apply)</label
+          ><br>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id=""
+            value="Front-end projects"
+          />
+          Front-end Projects <br>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id=""
+            value="Back-end Projects"
+          />
+          Back-end Projects <br>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id=""
+            value="Data Visualization"
+          />Data Visualization <br>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id=""
+            value="Challenges"
+          />Challenges <br>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id=""
+            value="Open Source Community"
+          />Open Source Community <br>
+          <input
+            type="checkbox"
+            name="checkbox"
+            id=""
+            c
+            value="Glitter help rooms"
+          />Glitter help rooms <br>
+        </div>
+
+        <div>
+          <label for="textarea">Any comments or suggestions?</label>
+          <textarea name="textarea" id="comment" cols="30" rows="10"></textarea>
+        </div>
+
+        <input type="button" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
